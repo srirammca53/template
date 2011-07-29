@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+<body>
+
+
+
+</body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Riding Hood  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20110725
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <title>Onetoone</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">One To One Association </a></h1>
+			<p>  </p>
+		</div>
+		<div id="search">
+			<form method="get" action="">
+				<fieldset>
+					<input type="text" name="s" id="search-text" size="15" />
+					<input type="submit" id="search-submit" value="GO" />
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="#">User</a></li>
+			<li><a href="#">Google</a></li>
+			<li><a href="#">My applications</a></li>
+			<li><a href="http://www.heroku.com/">Heroku</a></li>
+			<li><a href="https://github.com/">Github</a></li>
+			
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<center>
+	<%= yield %>
+	</center>
+		<!-- end #content -->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2>One TO One Association</h2>
+					<p>User has one Passport and Passport belongs to user</p>
+				</li>
+				<li>
+					<h2>Rails Tutorials</h2>
+					<ul>
+						<li><a href="http://www.tutorialspoint.com/">Tutorials point</a></li>
+						<li><a href="http://guides.rubyonrails.org/">Guide to Ruby on Rails </a></li>
+						<li><a href="http://railscasts.com/">Rails cast</a></li>
+						
+					</ul>
+				</li>
+				<li>
+					
+					
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer-wrapper">
+	<div id="footer">
+		<p>Copyright (c) 2011 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>
+	</div>
+	<!-- end #footer -->
+</div>
+</body>
+</html>
